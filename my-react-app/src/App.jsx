@@ -1,16 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Stats from './pages/Stats';
+import RedirectPage from './components/RedirectPage';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
-  )
-}
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/stats" element={<Stats />} />
+      <Route path="/:shortcode" element={<RedirectPage />} />
+    </Routes>
+  );
+};
 
-export default App
+export default App;
