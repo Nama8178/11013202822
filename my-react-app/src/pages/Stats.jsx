@@ -1,5 +1,5 @@
 import React from 'react';
-import StatsPage from '../components/StatsPage';
+import StatsPage from '../component/StatsPage';
 
 const Stats = () => {
   return (

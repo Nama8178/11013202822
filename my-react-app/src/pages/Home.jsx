@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import URLShortenerForm from '../components/URLShortenerForm';
+import URLShortenerForm from '../component/URLShortnerform';
 import URLList from '../components/URLList';
-import { addShortenedURLs } from '../utils/urlService';
+import { addShortenedURLs } from '../Utils/urlsService';
 
 // const handleShorten = (newEntries) => {
 //   addShortenedURLs(newEntries);

@@ -9,7 +9,7 @@ import {
   Divider,
 } from '@mui/material';
 import { v4 as uuidv4 } from 'uuid';
-import loggerMiddleware from '../Utils/loggerMiddleware ';
+import loggerMiddleware from '../Utils/loggerMiddleware';
 
 // Inside handleSubmit (when URL is shortened)
 loggerMiddleware('URL_SHORTENED', {

@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Stats from './pages/Stats';
-import RedirectPage from './components/RedirectPage';
+import RedirectPage from '../src/component/Redirect';
 
 const App = () => {
   return (

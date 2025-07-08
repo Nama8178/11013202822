@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { findByShortcode, logClick } from '../utils/urlService';
-import loggerMiddleware from '../utils/loggerMiddleware';
+import { findByShortcode, logClick } from '../Utils/urlService';
+import loggerMiddleware from '../Utils/urlsService';
 import { CircularProgress, Box, Typography } from '@mui/material';
 
 const RedirectPage = () => {
